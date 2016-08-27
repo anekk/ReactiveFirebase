@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ReactiveFirebase_Example' do
+  pod 'ReactiveFirebase', :path => '../'
+
+  target 'ReactiveFirebase_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
